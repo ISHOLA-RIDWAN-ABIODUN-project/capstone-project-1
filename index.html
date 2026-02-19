@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISHOLA RIDWAN ABIODUN | AWS Capstone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Capstone</div>
+      <nav class="menu">
+        <a href="#about">About</a>
+        <a href="#stack">Stack</a>
+        <a href="#demo">Demo</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="badge">Deployed on AWS</p>
+          <h1>Static Website on S3 + CloudFront</h1>
+          <p class="sub">
+            This capstone proves I can deploy a static site, configure secure CloudFront access,
+            and publish a globally cached URL.
+          </p>
+
+          <div class="cta">
+            <a class="btn" href="#demo">View Demo Notes</a>
+            <a class="btn secondary" href="#stack">See Tech Stack</a>
+          </div>
+
+          <div class="meta">
+            <div>
+              <div class="meta-label">Name</div>
+              <div class="meta-value">ISHOLA RIDWAN ABIODUN</div>
+            </div>
+            <div>
+              <div class="meta-label">Project</div>
+              <div class="meta-value">AWS S3 + CloudFront</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card">
+            <div class="card-title">What’s included</div>
+            <ul>
+              <li>S3 bucket hosting</li>
+              <li>CloudFront distribution</li>
+              <li>Default root object configured</li>
+              <li>Private bucket access via CloudFront</li>
+            </ul>
+            <div class="card-foot">✅ Live and accessible</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          I deployed this site using Amazon S3 for storage and CloudFront for global content delivery.
+          It’s a simple project, but it demonstrates real cloud fundamentals: permissions, caching, and deployment flow.
+        </p>
+      </div>
+    </section>
+
+    <section id="stack" class="section alt">
+      <div class="container">
+        <h2>Tech Stack</h2>
+        <div class="grid">
+          <div class="tile">
+            <h3>Amazon S3</h3>
+            <p>Stores and serves the site assets.</p>
+          </div>
+          <div class="tile">
+            <h3>CloudFront</h3>
+            <p>Global CDN URL for fast delivery.</p>
+          </div>
+          <div class="tile">
+            <h3>HTML + CSS</h3>
+            <p>Static frontend with responsive layout.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo" class="section">
+      <div class="container">
+        <h2>Demo Notes</h2>
+        <ol class="steps">
+          <li>Create S3 bucket and upload files.</li>
+          <li>Enable website behavior and set index document.</li>
+          <li>Create CloudFront distribution and set default root object.</li>
+          <li>Verify live URL loads correctly.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Want the repo link or walkthrough? Add it here later.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© <span id="year"></span> ISHOLA RIDWAN ABIODUN</span>
+      <span class="dot">•</span>
+      <span>AWS Capstone</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
